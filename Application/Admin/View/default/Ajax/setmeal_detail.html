@@ -1,0 +1,18 @@
+<div class="toptit"><strong>{$info['setmeal_name']}</strong></div>
+<table width="400" border="0" cellpadding="10" cellspacing="1" bgcolor="#D0E7F9" class="link_lan" id="list">
+  <tr>
+    <td bgcolor="#FFFFFF">开通时间：{:date('Y-m-d',$info['starttime'])}</td>
+    <td bgcolor="#FFFFFF">到期时间：
+      <if condition="$info['endtime'] eq 0">无限期
+        <else />
+    {:date('Y-m-d',$info['endtime'])}</if></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">同时在招职位数：{$info['jobs_meanwhile']}</td>
+    <td bgcolor="#FFFFFF">每天职位免费刷新数：{$info['refresh_jobs_free']}</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">可下载简历数：{$info['download_resume']}</td>
+    <td bgcolor="#FFFFFF">每天下载简历数上限：{$info['download_resume_max']}</td>
+  </tr>
+</table>

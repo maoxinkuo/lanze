@@ -1,0 +1,2 @@
+[ 2017-01-10T11:04:31+08:00 ] 192.168.1.131 /lanzexitong/74cms_v4.1.5/upload/
+SQL: SHOW COLUMNS FROM `qs_promotion` [RunTime:0.224s] [IP:192.168.1.131] [AddTime:1484017471] [qscms]
